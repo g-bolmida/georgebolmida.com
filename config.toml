@@ -1,0 +1,48 @@
+baseURL = 'https://georgebolmida.com'
+languageCode = 'en'
+title = 'George Bolmida'
+theme = 'hugo-coder'
+
+[params]
+author = "George Bolmida"
+
+info = "a very quick learner and a strong communicator"
+description = "George Bolmida's personal website"
+keywords = "blog,personal"
+avatarurl = "images/george_profile.jpg"
+
+colorScheme = "light"
+hidecolorschemetoggle = true
+
+[[menu.main]]
+  name = "about"
+  weight = 1
+  url  = "about"
+
+[[menu.main]]
+  name = "resume"
+  weight = 2
+  url = "resume"
+
+[[menu.main]]
+  name = "posts"
+  weight = 3
+  url = "posts"
+
+[[params.social]]
+key = 1
+name = "linkedin"
+icon = "fa fa-linkedin fa-2x"
+url = "https://www.linkedin.com/in/george-bolmida/"
+
+[[params.social]]
+key = 2
+name = "github"
+icon = "fa fa-github fa-2x"
+url = "https://github.com/g-bolmida"
+
+[[params.social]]
+key = 3
+name = "gitlab"
+icon = "fa fa-gitlab fa-2x"
+url = "https://gitlab.com/g-bolmida"
