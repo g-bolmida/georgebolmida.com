@@ -5,6 +5,8 @@ aliases = ["resume", "contact"]
 author = "George Bolmida"
 +++
 
+Download my Resume as a PDF [**here**](https://george-bolmida-resume.s3.us-east-2.amazonaws.com/george-bolmida-resume.pdf)
+
 ### Work Experience
 
 ##### Tangram Flex, Dayton, OH ☸ January 2022 - Present
