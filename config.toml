@@ -6,7 +6,7 @@ theme = 'hugo-coder'
 [params]
 author = "George Bolmida"
 
-info = "a very quick learner and a strong communicator"
+info = "a quick learner and a strong communicator"
 description = "George Bolmida's personal website"
 keywords = "blog,personal"
 avatarurl = "images/george_profile.jpg"
