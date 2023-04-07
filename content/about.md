@@ -10,9 +10,9 @@ author = "George Bolmida"
 
 Hello, I'm George Bolmida! I am very dedicated to the pursuit of knowledge and to the field of computer science. I am a very quick learner and a strong communicator.
 
-I really enjoy tackling problems head on and working to optimize and improve workflows for groups and organizations.
+I really enjoy tackling tough problems head on and working to optimize and improve workflows for teams and organizations.
 
-I have strong Linux command line skills and have lot of experience with Kubernetes, AWS, and Cybersecurity.
+I have strong strong experience with Kubernetes, AWS, and Cybersecurity.
 
 I am a Certified Kubernetes Administrator, Certified AWS Solutions Architect Associate, and have my CompTIA Security+ Certificate.
 
