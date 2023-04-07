@@ -40,7 +40,7 @@ Download my Resume as a PDF [**here**](https://george-bolmida-resume.s3.us-east-
 
 ##### University of Cincinnati ☸ Bachelor of Science in Cybersecurity
 
-- Graduating May 2023
+- Graduated April 2023
 - GPA: 3.61
 
 ##### Sinclair Community College ☸ Associate of Science in Secure Systems Administration
