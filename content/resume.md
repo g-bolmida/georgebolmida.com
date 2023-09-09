@@ -9,32 +9,41 @@ Download my Resume as a PDF [**here**](https://george-bolmida-resume.s3.us-east-
 
 ### Work Experience
 
-##### Tangram Flex, Dayton, OH ☸ January 2022 - Present
+##### Tangram Flex, Dayton, OH ☸ January 2022 - September 2023
 
 *DevOps Engineer Intern*, *DevOps Engineer*
 
-- Built and improved Gitlab CI/CD pipelines internal and external to the company for testing and deployment.
-- Added capabilities and improvements to the company’s product Helm chart.
-- Deployed, configured, and troubleshooted production applications for internal engineering as well as for external customers using Terraform and Helm to Kubernetes and AWS.
-- Administered a standalone Gitlab instance on Kubernetes for an external customer.
+I managed a crucial Gitlab instance on Kubernetes for an external customer, part of a $95 million contract. My responsibilities included deploying, configuring, and troubleshooting production applications, using Terraform, Kubernetes, and AWS.
+
+Additionally, I contributed to the organization's success by enhancing Gitlab CI/CD pipelines for internal and external use, streamlining testing and deployment automation. I also designed new functionality for the product's Helm chart.
+
+These experiences honed my technical skills and problem-solving abilities, enabling me to deliver impactful solutions for our clients.
 
 ##### Cyber@UC, Cincinnati, OH ☸ January 2022 – December 2022
 
 *Head of Lab*
 
-- Architected the clubs internal and cloud infrastructure to fit the needs of the club members.
-- Worked to modernize and standardize software deployments with Terraform, Helm, and Flux.
-- Worked to maintain the club’s on-premises laboratory hardware.
-- Helped integrate Teleport SSO to manage access to lab resources.
+I played a key role in architecting the internal and cloud infrastructure for the club, aligning it with the unique needs of our members. Leveraging both on-premises Kubernetes clusters and Google Cloud, I worked to ensure a robust and scalable environment.
+
+My efforts focused on standardizing software deployments and club resources, employing tools like Terraform, Helm, and Flux. I also took on the responsibility of maintaining our on-premises laboratory hardware, ensuring it remained in good condition.
+
+In addition, I facilitated the integration of Teleport Single Sign-On (SSO) to efficiently manage access to our valuable lab resources. These experiences allowed me to provide members with a seamless and secure technology environment.
 
 ##### City of Centerville, Centerville, OH ☸ June 2019 – August 2021
 
 *Information Technology Intern*
 
-- Helped to deploy and maintain production software at the Centerville Police Department and dispatch center.
-- Performed technical product research to evaluate product options for the team.
-- Wrote and deployed group policies to facilitate city configurations and software deployments.
-- Worked with a team to troubleshoot help-desk tickets ranging across all city departments.
+I assisted with the deployment and upkeep of mission-critical production software at the Centerville Police Department and dispatch center, ensuring the seamless operation of essential services.
+
+My responsibilities also involved conducting thorough technical product research to identify optimal solutions for the cities needs. Additionally, I took charge of crafting and deploying group policies, streamlining configurations and software deployments.
+
+##### Dayton Dinner Theater, Dayton, OH ☸ September 2019 – December 2020
+
+*Technical Director*
+
+I collaborated closely with the business owner to enhance the technical aspects of the theater, ensuring a seamless and immersive experience for the patrons. My responsibilities included conducting research and integrating innovative software and tools to elevate viewer participation during events.
+
+These experiences allowed me to contribute significantly to the theater's overall success and the satisfaction of the audience.
 
 ### Education 
 
