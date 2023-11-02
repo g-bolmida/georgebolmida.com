@@ -88,6 +88,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: [compile-resume]
     steps:      
+      - name: echo 
+        run: echo ${{ secrets.MINIO_ENDPOINT }}
+      
       - name: Install Minio Client
         run: wget https://dl.min.io/client/mc/release/linux-amd64/mc && chmod +x mc && mv mc /usr/local/bin
       - name: Download resume PDF artifact
