@@ -94,6 +94,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: resume
+          path: resume/resume.pdf
       - name: Set MC alias
         run: mc alias set aws ${{ secrets.MINIO_ENDPOINT }} ${{ secrets.MINIO_ACCESS_KEY }} ${{ secrets.MINIO_SECRET_KEY }}
       - name: Upload resume PDF to S3
