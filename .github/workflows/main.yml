@@ -1,11 +1,8 @@
 name: Deploy Hugo site and compile and publish resume
 
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
@@ -32,18 +29,15 @@ jobs:
     steps:
     - name: Check out code
       uses: actions/checkout@v2
-    
     - name: Compile resume
       run: cd resume/ && pdflatex resume.tex
-
     - name: Upload resume PDF as an artifact
       uses: actions/upload-artifact@v2
       with:
         name: resume
         path: resume/resume.pdf
 
-  # Build job
-  build:
+  hugo-build:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.108.0
@@ -77,14 +71,30 @@ jobs:
         with:
           path: ./public
 
-  # Deployment job
-  deploy:
+  hugo-deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: [build, compile-resume]
+    needs: [hugo-build]
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+
+  publish-resume:
+    environment: 
+      name: aws-s3
+    runs-on: ubuntu-latest
+    container: 
+      image: minio/mc:latest
+    needs: [compile-resume]
+    steps:      
+      - name: Download resume PDF artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: resume
+      - name: Set MC alias
+        run: mc alias set aws ${{ secrets.MINIO_ENDPOINT }} ${{ secrets.MINIO_ACCESS_KEY }} ${{ secrets.MINIO_SECRET_KEY }}
+      - name: Upload resume PDF to S3
+        run: mc cp resume/resume.pdf aws/george-bolmida-resume.pdf
