@@ -88,17 +88,14 @@ jobs:
     runs-on: ubuntu-latest
     needs: [compile-resume]
     steps:      
-      - name: echo 
-        run: echo ${{ secrets.MINIO_ENDPOINT }}
-      
       - name: Install Minio Client
         run: wget https://dl.min.io/client/mc/release/linux-amd64/mc && chmod +x mc && mv mc /usr/local/bin
       - name: Download resume PDF artifact
         uses: actions/download-artifact@v2
         with:
           name: resume
-          path: resume/resume.pdf
+          path: resume.pdf
       - name: Set MC alias
         run: mc alias set aws ${{ secrets.MINIO_ENDPOINT }} ${{ secrets.MINIO_ACCESS_KEY }} ${{ secrets.MINIO_SECRET_KEY }}
       - name: Upload resume PDF to S3
-        run: mc cp resume/resume.pdf aws/george-bolmida-resume.pdf
+        run: mc cp resume.pdf aws/george-bolmida-resume.pdf
