@@ -94,8 +94,8 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: resume
-          path: resume.pdf
+          path: ./
       - name: Set MC alias
         run: mc alias set aws ${{ secrets.MINIO_ENDPOINT }} ${{ secrets.MINIO_ACCESS_KEY }} ${{ secrets.MINIO_SECRET_KEY }}
       - name: Upload resume PDF to S3
-        run: mc cp --recursive resume.pdf aws/george-bolmida-resume/george-bolmida-resume.pdf
+        run: mc cp resume.pdf aws/george-bolmida-resume/george-bolmida-resume.pdf
