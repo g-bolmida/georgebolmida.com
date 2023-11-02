@@ -39,7 +39,7 @@
 
 % Resume items i.e. job descriptions
 \providecommand{\resumeItem}[1]{%
-  \item[]\small{%
+  \item[-]\small{%
     {#1 \vspace{-2pt}}%
   }%
 }
