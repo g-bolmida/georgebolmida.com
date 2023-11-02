@@ -86,10 +86,10 @@ jobs:
     environment: 
       name: aws-s3
     runs-on: ubuntu-latest
-    container: 
-      image: minio/mc:latest
     needs: [compile-resume]
     steps:      
+      - name: Install Minio Client
+        run: wget https://dl.min.io/client/mc/release/linux-amd64/mc && chmod +x mc && mv mc /usr/local/bin
       - name: Download resume PDF artifact
         uses: actions/download-artifact@v2
         with:
