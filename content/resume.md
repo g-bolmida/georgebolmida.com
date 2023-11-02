@@ -5,7 +5,9 @@ aliases = ["resume", "contact"]
 author = "George Bolmida"
 +++
 
-Download my Resume as a PDF [**here**](https://george-bolmida-resume.s3.us-east-2.amazonaws.com/george-bolmida-resume.pdf)
+Download the latest build of my Resume as a PDF [**here**](https://george-bolmida-resume.s3.us-east-2.amazonaws.com/george-bolmida-resume.pdf)
+
+[![Compile and Publish Resume](https://github.com/g-bolmida/georgebolmida.com/actions/workflows/main.yml/badge.svg)](https://github.com/g-bolmida/georgebolmida.com/actions/workflows/main.yml)
 
 ### Work Experience
 
@@ -59,25 +61,31 @@ These experiences allowed me to contribute significantly to the theater's overal
 
 ### Certifications
 
-##### AWS Solutions Architect, Amazon Web Services - Associate ☸ January 2023
+##### [AWS Solutions Architect](https://aws.amazon.com/certification/certified-solutions-architect-associate/), Amazon Web Services - Associate ☸ January 2023
+
+Verify Credentials: [Credly](https://www.credly.com/badges/21e27f3e-490c-4b3a-88c3-164121d10b70/public_url)
 
 The Solutions Architect Associate certification demonstrates an understanding of designing well architected systems to run in AWS and the cloud beyond with automation, governance, security, reliability, performance, and cost in mind.
 
-##### Certified Kubernetes Administrator, The Linux Foundation ☸ December 2021
+##### [Certified Kubernetes Administrator](https://github.com/cncf/curriculum/blob/master/CKA_Curriculum_v1.28.pdf), The Linux Foundation ☸ December 2021
+
+Verify Credentials: [Linux Foundation](https://training.linuxfoundation.org/certification/verify/) - Credential ID: LF-t5eicv3fid
 
 The Certified Kubernetes Certification demonstrates a deep understanding of Kubernetes deployment, maintenance, and troubleshooting, including topics like architecture, scheduling, networking, storage, and troubleshooting.
 
-##### CompTIA Security+, CompTIA ☸ July 2021
+##### [CompTIA Security+](https://www.comptia.org/certifications/security), CompTIA ☸ July 2021
+
+Verify Credentials: [Credly](https://www.credly.com/badges/c24eaede-c914-4c03-ac8f-9a84d31ad424?source=linked_in_profile)
 
 The CompTIA Security+ includes content like attacks/threats, security architecture, PKI, algorithms, security operations, incident response, and governance and risk.
 
 ### Skills
 
-Software: Kubernetes, Helm, Terraform, Gitlab CI/CD, Docker, Prometheus/Grafana, Git, Tilt
-Programming: Go (Golang), Python, JavaScript, Bash
-
-Business Skills: Agile Methodologies, Risk Identification, Product Management, Collaboration
-Soft Skills: Communication, Leadership, Problem Solving, Adaptability, Time Management
+- **Software:** Kubernetes, Helm, AWS, Google Cloud, Terraform, Gitlab, Gitlab CI/CD, Docker, Prometheus/Grafana/Loki, Nginx, Postgres, Vector Databases
+- **Programming:** Go (Golang), Python, JavaScript/TypeScript, Bash
+- **Libraries/Frameworks:** NextJS, LangChain, Go Fiber, Prisma, Gorm
+- **Business Skills:** Agile, DevOps/Site Reliability Engineering, Product Management
+- **Soft Skills:** Communication, Leadership, Problem Solving, Adaptability, Time Management
 
 ### Projects
 
@@ -88,3 +96,9 @@ As part of my early learning with Kubernetes, I built and ran a 6-node Kubernete
 ##### NixOS GitOps Server ☸ Senior Design Project
 
 Worked on a small team to create a cloud native web app using React and Golang that will allow for remote end user device management and customization of Linux based developer workstations using either a simple UI or GitOps methods with Github.
+
+##### This Website and Resume ☸ Personal Project
+
+Check it out! - [My Portfolio Repo](https://github.com/g-bolmida/georgebolmida.com)
+
+In order to present my achievements as well as keep my resume a living document I have used a stack consisting of Hugo, LaTeX, S3, and Github Actions.

@@ -1,4 +1,4 @@
-name: Deploy Hugo site and compile and publish resume
+name: Compile and Publish Resume
 
 on:
   push:
