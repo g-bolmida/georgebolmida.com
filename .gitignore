@@ -4,3 +4,26 @@
 /resources/_gen/
 /assets/jsconfig.json
 hugo_stats.json
+
+# LaTeX Ignores
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+# Keep my resume builds out too
+*.pdf
