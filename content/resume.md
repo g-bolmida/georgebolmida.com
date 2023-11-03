@@ -11,9 +11,15 @@ Download the latest build of my Resume as a PDF [**here**](https://george-bolmid
 
 ### Work Experience
 
-##### Tangram Flex, Dayton, OH ☸ January 2022 - September 2023
+##### [Datacrate.io](https://www.datacrate.io/), Cincinnati, OH ☸ September 2023 - Present
 
-*DevOps Engineer Intern*, *DevOps Engineer*
+**Co-Founder & Chief Technology Officer**
+
+I am the co-founder and CTO of Datacrate.io, a startup that aims to make retrieval augmented generation more effective for personal data with a primary goal of respecting user privacy. I am responsible for the technical direction of the company, including product development, system architecture, and cloud infrastructure.
+
+##### [Tangram Flex](https://tangramflex.com/), Dayton, OH ☸ January 2022 - September 2023
+
+**DevOps Engineer**
 
 I managed a crucial Gitlab instance on Kubernetes for an external customer, part of a $95 million contract. My responsibilities included deploying, configuring, and troubleshooting production applications, using Terraform, Kubernetes, and AWS.
 
@@ -21,9 +27,9 @@ Additionally, I contributed to the organization's success by enhancing Gitlab CI
 
 These experiences honed my technical skills and problem-solving abilities, enabling me to deliver impactful solutions for our clients.
 
-##### Cyber@UC, Cincinnati, OH ☸ January 2022 – December 2022
+##### [Cyber@UC](https://www.cyberatuc.org/), Cincinnati, OH ☸ January 2022 – December 2022
 
-*Head of Lab*
+**Head of Lab**
 
 I played a key role in architecting the internal and cloud infrastructure for the club, aligning it with the unique needs of our members. Leveraging both on-premises Kubernetes clusters and Google Cloud, I worked to ensure a robust and scalable environment.
 
@@ -31,9 +37,9 @@ My efforts focused on standardizing software deployments and club resources, emp
 
 In addition, I facilitated the integration of Teleport Single Sign-On (SSO) to efficiently manage access to our valuable lab resources. These experiences allowed me to provide members with a seamless and secure technology environment.
 
-##### City of Centerville, Centerville, OH ☸ June 2019 – August 2021
+##### [City of Centerville](https://www.centervilleohio.gov/home), Centerville, OH ☸ June 2019 – August 2021
 
-*Information Technology Intern*
+**Information Technology Intern**
 
 I assisted with the deployment and upkeep of mission-critical production software at the Centerville Police Department and dispatch center, ensuring the seamless operation of essential services.
 
@@ -41,7 +47,7 @@ My responsibilities also involved conducting thorough technical product research
 
 ##### Dayton Dinner Theater, Dayton, OH ☸ September 2019 – December 2020
 
-*Technical Director*
+**Technical Director**
 
 I collaborated closely with the business owner to enhance the technical aspects of the theater, ensuring a seamless and immersive experience for the patrons. My responsibilities included conducting research and integrating innovative software and tools to elevate viewer participation during events.
 
