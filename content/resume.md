@@ -11,11 +11,11 @@ Download the latest build of my Resume as a PDF [**here**](https://george-bolmid
 
 ### Work Experience
 
-##### [Datacrate.io](https://www.datacrate.io/), Cincinnati, OH ☸ September 2023 - Present
+##### Datacrate.io, Cincinnati, OH ☸ September 2023 - January 2024
 
 **Co-Founder & Chief Technology Officer**
 
-I am the co-founder and CTO of Datacrate.io, a startup that aims to make retrieval augmented generation more effective for personal data with a primary goal of respecting user privacy. I am responsible for the technical direction of the company, including product development, system architecture, and cloud infrastructure.
+As the co-founder and Chief Technical Officer (CTO) of Datacrate.io, I led the startup's vision to enhance the effectiveness of retrieval-augmented generation for personal data. Our primary objective was to increase the portability of large language contexts and distributed personal data. My responsibilities surrounded guiding the company's technical strategy, leading prototype development, and applying for funding.
 
 ##### [Tangram Flex](https://tangramflex.com/), Dayton, OH ☸ January 2022 - September 2023
 
