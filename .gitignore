@@ -27,3 +27,5 @@ hugo_stats.json
 
 # Keep my resume builds out too
 *.pdf
+
+.DS_Store
