@@ -87,11 +87,11 @@ The CompTIA Security+ includes content like attacks/threats, security architectu
 
 ### Skills
 
-- **Software:** Kubernetes, Helm, AWS, Google Cloud, Terraform, Gitlab, Gitlab CI/CD, Docker, Prometheus/Grafana/Loki, Nginx, Postgres, Vector Databases
-- **Programming:** Go (Golang), Python, JavaScript/TypeScript, Bash
-- **Libraries/Frameworks:** NextJS, LangChain, Go Fiber, Prisma, Gorm
-- **Business Skills:** Agile, DevOps/Site Reliability Engineering, Product Management
-- **Soft Skills:** Communication, Leadership, Problem Solving, Adaptability, Time Management
+- **Languages/Systems:** Golang, Kubernetes, Python, JavaScript/TypeScript, AWS, Google Cloud, Terraform, CI/CD, Prometheus/Grafana, SQL
+- **Libraries/Frameworks:** Go Fiber, NextJS, Flask, Cobra CLI, LangChain, Prisma, Gorm
+- **Communication:** Excelled at articulating technical strategies and requirements with team members and stakeholders to ensure alignment and project success.
+- **Problem Solving:** Adept at quickly innovating solutions to complex technical problems, ensuring they align with project requirements.
+- **Versatility:** Quickly adapted to changing project needs and technologies, maintaining high productivity under pressure.
 
 ### Projects
 
