@@ -11,6 +11,14 @@ Download the latest build of my Resume as a PDF [**here**](https://george-bolmid
 
 ### Work Experience
 
+##### [dunnhumby](https://www.dunnhumby.com/), Cincinnati, OH ☸ March 2024 - Present
+
+**Senior Platform Engineer** ☸ March 2026 - Present
+
+**Platform Engineer** ☸ March 2024 - March 2026
+
+At dunnhumby I built and deployed custom production AI agents using LangChain, LangGraph, and vLLM as a sole contributor, from initial PoCs through production rollouts. Adopted by internal departments and have consistently demoed to directors, the CTO, and CEO.
+
 ##### Datacrate.io, Cincinnati, OH ☸ September 2023 - January 2024
 
 **Co-Founder & Chief Technology Officer**
@@ -44,14 +52,6 @@ In addition, I facilitated the integration of Teleport Single Sign-On (SSO) to e
 I assisted with the deployment and upkeep of mission-critical production software at the Centerville Police Department and dispatch center, ensuring the seamless operation of essential services.
 
 My responsibilities also involved conducting thorough technical product research to identify optimal solutions for the cities needs. Additionally, I took charge of crafting and deploying group policies, streamlining configurations and software deployments.
-
-##### Dayton Dinner Theater, Dayton, OH ☸ September 2019 – December 2020
-
-**Technical Director**
-
-I collaborated closely with the business owner to enhance the technical aspects of the theater, ensuring a seamless and immersive experience for the patrons. My responsibilities included conducting research and integrating innovative software and tools to elevate viewer participation during events.
-
-These experiences allowed me to contribute significantly to the theater's overall success and the satisfaction of the audience.
 
 ### Education 
 
@@ -88,7 +88,7 @@ The CompTIA Security+ includes content like attacks/threats, security architectu
 ### Skills
 
 - **Languages/Systems:** Golang, Kubernetes, Python, JavaScript/TypeScript, AWS, Google Cloud, Terraform, CI/CD, Prometheus/Grafana, SQL
-- **Libraries/Frameworks:** Go Fiber, NextJS, Flask, Cobra CLI, LangChain, Prisma, Gorm
+- **Libraries/Frameworks:** LangChain/LangGraph, NextJS, Flask, Cobra CLI, Prisma, Gorm
 - **Communication:** Excelled at articulating technical strategies and requirements with team members and stakeholders to ensure alignment and project success.
 - **Problem Solving:** Adept at quickly innovating solutions to complex technical problems, ensuring they align with project requirements.
 - **Versatility:** Quickly adapted to changing project needs and technologies, maintaining high productivity under pressure.
@@ -105,6 +105,6 @@ Worked on a small team to create a cloud native web app using React and Golang t
 
 ##### This Website and Resume ☸ Personal Project
 
-Check it out! - [My Portfolio Repo](https://github.com/g-bolmida/georgebolmida.com)
+Check it out - [My Portfolio Repo](https://github.com/g-bolmida/georgebolmida.com)
 
 In order to present my achievements as well as keep my resume a living document I have used a stack consisting of Hugo, LaTeX, S3, and Github Actions.

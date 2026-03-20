@@ -24,10 +24,10 @@ hidecolorschemetoggle = true
   weight = 2
   url = "/resume"
 
-[[menu.main]]
-  name = "posts"
-  weight = 3
-  url = "/posts"
+#[[menu.main]]
+#  name = "posts"
+#  weight = 3
+#  url = "/posts"
 
 [[params.social]]
 key = 1

@@ -53,6 +53,16 @@
     \end{tabular*}\vspace{-5pt}
 }
 
+% Resume subheading with two roles (company, location, role1, dates1, role2, dates2)
+\providecommand{\resumeSubheadingTwo}[6]{%
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
 % List logic
 \providecommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
 \providecommand{\resumeSubHeadingListEnd}{\end{itemize}}
