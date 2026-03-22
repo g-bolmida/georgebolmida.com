@@ -6,12 +6,30 @@ aliases = ["about-me"]
 author = "George Bolmida"
 +++
 
-{{< figure src="/images/george_profile.jpg" height="50%" width="50%" >}}
+{{< figure src="/images/george_profile.jpg" height="50%" width="50%" class="profile-rounded" >}}
 
-Hello, I'm George Bolmida! I am dedicated to the pursuit of knowledge and to the field of computer science. I am a quick learner and a strong communicator.
+Hello, I'm George Bolmida.
+ 
+I'm a Senior Platform Engineer at dunnhumby where I built and own one of the company's earliest production AI applications, solo, from **prototype** to **production**.
+ 
+## What I Do
 
-I specialize in building AI-powered applications, with a focus on agentic tool calling architectures using LangGraph and LangChain. I deploy and serve custom open-source models at scale with vLLM on Kubernetes. I am a strong believer in the power of workflow augmentation and simplicity, I enjoy tackling tough problems across the full stack.
+I specialize in taking AI from concept to shipped product. That means:
 
-I am a Certified Kubernetes Administrator, Certified AWS Solutions Architect Associate, and have my CompTIA Security+ Certificate.
+- **AI applications**: Agentic architectures with LangGraph and LangChain, from PoC through production rollout
+- **Model serving**: Deploying and serving open-source models at scale with vLLM on Kubernetes
+- **Full stack infrastructure**: Everything underneath that makes it actually run in production
+
+At dunnhumby I've demo'd my work to the CTO and CEO, own the product roadmap for my application, and have multiple business units coming to me to build AI capabilities for their teams.
+
+## Before dunnhumby
+
+I co-founded an AI startup (DataCrate) where I led all technical decisions, built prototypes from scratch, and pitched to VCs. Before that I spent about two years at Tangram Flex managing production Kubernetes infrastructure tied to a $95M defense contract.
+
+## Certifications
 
 {{< figure src="/images/certs.png" height="85%" width="85%" >}}
+
+- **Certified Kubernetes Administrator** (CKA) - The Linux Foundation
+- **AWS Solutions Architect Associate** - Amazon Web Services
+- **CompTIA Security+** - CompTIA

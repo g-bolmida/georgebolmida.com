@@ -6,13 +6,15 @@ theme = 'hugo-coder'
 [params]
 author = "George Bolmida"
 
-info = "a quick learner and a strong communicator"
+info = "I take AI to production"
 description = "George Bolmida's personal website"
 keywords = "blog,personal"
 avatarurl = "images/george_profile.jpg"
 
 colorScheme = "light"
 hidecolorschemetoggle = true
+
+customCSS = ["css/custom.css"]
 
 [[menu.main]]
   name = "about"
