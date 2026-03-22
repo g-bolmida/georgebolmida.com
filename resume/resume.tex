@@ -9,6 +9,12 @@
 \contactInfo
   {\href{tel:+19373219502}{(937) 321-9502} \textbullet \ \href{mailto:gbolmida@georgebolmida.com}{gbolmida@georgebolmida.com} \textbullet \ \href{https://georgebolmida.com}{georgebolmida.com}}
 
+% ----------SUMMARY----------
+\section{Summary}
+  \resumeSubHeadingListStart
+    \item[] I build AI applications and get them into production. At dunnhumby, I took a side project and turned it into a real product that people actually use, handling everything from model serving to the frontend myself. I care about shipping things that work, not just building demos.
+  \resumeSubHeadingListEnd
+
 % -----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
@@ -23,52 +29,48 @@
 % --------SKILLS--------
 \section{Skills}
   \resumeSubHeadingListStart
-    \resumeSubItem{\textbf{Languages/Systems:} Golang, Kubernetes, Python, JavaScript/TypeScript, AWS, Google Cloud, Terraform,\\ CI/CD, Prometheus/Grafana, SQL}
-    \resumeSubItem{\textbf{Libraries/Frameworks:} LangChain/LangGraph, NextJS, Flask, Cobra CLI, Prisma, Gorm}
+    \resumeSubItem{\textbf{AI \& ML:} LangChain, LangGraph, vLLM, RAG architectures, agentic tool-calling systems, knowledge graphs, prompt engineering, MCP}
+    \resumeSubItem{\textbf{Languages:} Python, Golang, JavaScript/TypeScript, SQL}
+    \resumeSubItem{\textbf{Infrastructure:} Kubernetes, Docker, AWS, Google Cloud, Terraform, Helm, CI/CD, Prometheus/Grafana, Linux}
+    \resumeSubItem{\textbf{Frameworks:} NextJS, Flask, Prisma, Gorm}
   \resumeSubHeadingListEnd
 
 % --------WORK EXPERIENCE--------
 \section{Work Experience}
   \resumeSubHeadingListStart
-    \resumeSubheadingTwo
+    \resumeSubheading
       {dunnhumby}{Cincinnati, OH}
-      {Senior Platform Engineer}{Mar 2026 - Present}
-      {Platform Engineer}{Mar 2024 - Mar 2026}
+      {Senior Platform Engineer (promoted from Platform Engineer, Mar 2026)}{Mar 2024 - Present}
       \resumeItemListStart
-        \resumeItem{Built and deployed custom production AI agents using LangChain, LangGraph, and vLLM as sole contributor, from initial PoCs through production rollout, adopted by multiple internal departments.}
-        \resumeItem{Consistently demoed work to directors, the CTO, and CEO; acted as primary technical point of contact for AI platform initiatives.}
+        \resumeItem{Built and own one of dunnhumby's earliest production AI applications as sole contributor, from prototype to a fully deployed product with \textasciitilde40 active users and executive buy-in up to the CTO and CEO.}
+        \resumeItem{Designed and built the full stack: agentic tool-calling with LangGraph, model serving with vLLM on Kubernetes, and a Chainlit frontend with custom JSX elements and logic.}
+        \resumeItem{Owned the product roadmap with full latitude to define what comes next.}
+        \resumeItem{Multiple business units have come to me to build AI prototypes for their teams.}
       \resumeItemListEnd
     \resumeSubheading
       {Datacrate.io}{Cincinnati, OH}
       {Co-Founder \& CTO}{Sep 2023 - Jan 2024}
       \resumeItemListStart
-        \resumeItem{Built prototypes from the ground up for an early-stage AI startup focused on retrieval-augmented generation for personal data, handling all technical decisions with Python and Golang.}
-        \resumeItem{Conducted user interviews to inform product direction and pitched to venture capitalists for funding.}
+        \resumeItem{Co-founded an AI startup building a graph database-backed RAG system for privately querying your own personal data.}
+        \resumeItem{Designed prototypes for ingesting personal data into knowledge graphs using the Solid protocol to allow for RAG querying with LLMs.}
+        \resumeItem{Pitched to VCs and iterated on the prototype based on user interviews.}
       \resumeItemListEnd
     \resumeSubheading
       {Tangram Flex}{Dayton, OH (Remote)}
       {DevOps Engineer}{Jan 2022 - Sep 2023}
       \resumeItemListStart
-        \resumeItem{Managed a critical GitLab instance on Kubernetes for an external customer, integral to a \$95 million contract, supporting 100+ developers.}
-        \resumeItem{Led deployment, configuration, and troubleshooting of production applications using Terraform, Kubernetes, and AWS, ensuring high system reliability.}
-        \resumeItem{Enhanced GitLab CI/CD pipelines, significantly streamlining testing and deployment processes for both internal and external applications.}
-        \resumeItem{Contributed to the development of new functionalities for the product's Helm chart, improving automation and operational efficiency.}
+        \resumeItem{Owned a production GitLab instance on Kubernetes supporting 100+ developers on a \$95 million defense contract.}
+        \resumeItem{Managed AWS infrastructure with Terraform across multiple environments.}
+        \resumeItem{Rebuilt CI/CD pipelines to speed up deployments for internal and customer-facing applications.}
+        \resumeItem{Extended the product's Helm chart to cut down on manual ops work.}
       \resumeItemListEnd
     \resumeSubheading
       {Cyber@UC}{Cincinnati, OH}
       {Head of Lab}{Jan 2022 - Dec 2022}
       \resumeItemListStart
-        \resumeItem{Led the planning and implementation of the architecture of both internal and cloud-based infrastructure for the club, utilizing on-premises Kubernetes clusters and Google Cloud.}
-        \resumeItem{Streamlined software deployment processes by implementing Terraform and Helm, achieving a highly organized and unified system setup.}
+        \resumeItem{Built and maintained the club's infrastructure on on-prem Kubernetes and Google Cloud.}
+        \resumeItem{Set up Terraform, Helm, and Flux for GitOps deployments. Integrated Teleport SSO for access management.}
       \resumeItemListEnd
-  \resumeSubHeadingListEnd
-
-% --------PROJECTS--------
-\section{Projects}
-  \resumeSubHeadingListStart
-    \resumeSubItem{\textbf{Raspberry Pi Kubernetes Cluster:} Built a 6-node Kubernetes cluster on Raspberry Pis. This setup included Gitea and Drone CI implementations, plus Prometheus/Grafana for monitoring, all managed via ArgoCD with GitOps.}
-    \resumeSubItem{\textbf{NixOS GitOps Server:} Collaborated on a cloud-native web app with React and Golang for remote device management and Linux workstation customization via UI or GitOps with GitHub.}
-    \resumeSubItem{\textbf{This Resume:} Fully automated the process of building and publishing this resume with LaTeX, Github Actions, and S3.}
   \resumeSubHeadingListEnd
 
 % --------CERTIFICATIONS--------
