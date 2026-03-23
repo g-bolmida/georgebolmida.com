@@ -18,7 +18,7 @@ I specialize in taking AI from concept to shipped product. That means:
 
 - **AI applications**: Agentic architectures with LangGraph and LangChain, from PoC through production rollout
 - **Model serving**: Deploying and serving open-source models at scale with vLLM on Kubernetes
-- **Full stack infrastructure**: Everything underneath that makes it actually run in production
+- **Full stack infrastructure**: Docker builds, Helm charts, Terraform
 
 At dunnhumby I've demo'd my work to the CTO and CEO, own the product roadmap for my application, and have multiple business units coming to me to build AI capabilities for their teams.
 
